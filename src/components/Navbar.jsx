@@ -12,6 +12,11 @@ export default class Navbar extends React.Component {
             <li><a href="#work" data-nav-section="work">Work</a></li>
             <li><a href="#contact" data-nav-section="contact">Contact</a></li>
           </ul>
+          <br/>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/bridgesjonathan/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2"></i></a></li>
+            <li><a href="https://github.com/jonathanbridges" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+          </ul>
         </div>
       </nav>
     )

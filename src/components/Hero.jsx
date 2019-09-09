@@ -1,6 +1,13 @@
 import React from 'react';
 
 export default class Hero extends React.Component {
+
+  goToAnchor(anchor) {
+    const loc = document.location.toString().split('#')[0];
+    document.location = loc + '#' + anchor;
+    return undefined;
+  }
+
   render () {
     return (
       <section id="colorlib-hero" className="js-fullheight" data-section="home">
@@ -31,7 +38,7 @@ export default class Hero extends React.Component {
                       <div className="desc">
                         <h1>I am <br />a Software Developer</h1>
                         <h2>I love building things</h2>
-                        <p><a className="btn btn-primary btn-learn">View Portfolio <i className="icon-briefcase3" /></a></p>
+                        <p><a href="#work" onClick={this.goToAnchor('work')}>View Portfolio <i className="icon-briefcase3" /></a></p>
                       </div>
                     </div>
                   </div>

@@ -9,7 +9,7 @@ export default class Aside extends React.Component {
         <div className="text-center">
           <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
           <h1 id="colorlib-logo"><a href="index.html">Jonathan Bridges</a></h1>
-          <span className="position"><a href="#">Software Developer</a> in San Francisco</span>
+          <span className="position"><a href="#home" data-nav-section="home">Software Developer</a> in San Francisco</span>
         </div>
         <Navbar />
         <Footer />

@@ -15,10 +15,10 @@ export default class Contact extends React.Component {
             <div className="col-md-5">
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
-                  <i className="icon-globe-outline" />
+                  <i className="icon-mail" />
                 </div>
                 <div className="colorlib-text">
-                  <p><a href="#">info@domain.com</a></p>
+                  <p><a href="mailto:jbridges7@gmail.com">Email Me</a>  </p>
                 </div>
               </div>
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -35,29 +35,6 @@ export default class Contact extends React.Component {
                 </div>
                 <div className="colorlib-text">
                   <p><a href="tel://">+123 456 7890</a></p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-7 col-md-push-1">
-              <div className="row">
-                <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-                  <form action>
-                    <div className="form-group">
-                      <input type="text" className="form-control" placeholder="Name" />
-                    </div>
-                    <div className="form-group">
-                      <input type="text" className="form-control" placeholder="Email" />
-                    </div>
-                    <div className="form-group">
-                      <input type="text" className="form-control" placeholder="Subject" />
-                    </div>
-                    <div className="form-group">
-                      <textarea name id="message" cols={30} rows={7} className="form-control" placeholder="Message" defaultValue={""} />
-                    </div>
-                    <div className="form-group">
-                      <input type="submit" className="btn btn-primary btn-send-message" defaultValue="Send Message" />
-                    </div>
-                  </form>
                 </div>
               </div>
             </div>
