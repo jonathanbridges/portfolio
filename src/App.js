@@ -4,6 +4,8 @@ import Aside from '../src/components/Aside';
 import Hero from '../src/components/Hero';
 import About from '../src/components/About';
 import Experience from '../src/components/Experience';
+import Work from '../src/components/Work';
+import Contact from '../src/components/Contact';
 
 
 class App extends React.Component {
@@ -17,6 +19,8 @@ class App extends React.Component {
             <Hero />
             <About />
             <Experience />
+            <Work />
+            <Contact />
           </div>
         </div>
       </div>

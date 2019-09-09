@@ -8,8 +8,8 @@ export default class Aside extends React.Component {
       <aside id="colorlib-aside" className="border js-fullheight">
         <div className="text-center">
           <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
-          <h1 id="colorlib-logo"><a href="index.html">Jackson Ford</a></h1>
-          <span className="position"><a href="#">UI/UX/Designer</a> in Philippines</span>
+          <h1 id="colorlib-logo"><a href="index.html">Jonathan Bridges</a></h1>
+          <span className="position"><a href="#">Software Developer</a> in San Francisco</span>
         </div>
         <Navbar />
         <Footer />
