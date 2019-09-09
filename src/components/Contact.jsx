@@ -18,23 +18,17 @@ export default class Contact extends React.Component {
                   <i className="icon-mail" />
                 </div>
                 <div className="colorlib-text">
-                  <p><a href="mailto:jbridges7@gmail.com">Email Me</a>  </p>
+                  <p><a href="mailto:jbridges7@gmail.com">jbridges7@gmail.com</a>  </p>
                 </div>
               </div>
-              <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                <div className="colorlib-icon">
-                  <i className="icon-map" />
-                </div>
-                <div className="colorlib-text">
-                  <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-                </div>
-              </div>
+            </div>
+            <div className="col-md-5">
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
                   <i className="icon-phone" />
                 </div>
                 <div className="colorlib-text">
-                  <p><a href="tel://">+123 456 7890</a></p>
+                  <p><a href="tel://">+707 604 8552</a></p>
                 </div>
               </div>
             </div>

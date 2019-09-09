@@ -32,7 +32,7 @@ export default class Hero extends React.Component {
                       <div className="desc">
                         <h1>I am <br />a Software Developer</h1>
                         <h2>I love building things</h2>
-                        <p><a className="btn btn-primary btn-learn">View Portfolio  <i clasName="icon-briefcase3" /></a></p>
+                        <p><a className="btn btn-primary btn-learn">View Portfolio  <i className="icon-briefcase3" /></a></p>
                       </div>
                     </div>
                   </div>

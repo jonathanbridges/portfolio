@@ -850,7 +850,7 @@ body.offcanvas {
       letter-spacing: 3px;
       text-transform: uppercase; }
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
-    margin-top: 30px; }
+    margin-top: 35px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     color: #2c98f0;
     font-size: 40px; }
@@ -1427,3 +1427,7 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.social-icons {
+	margin-bottom: 1.6em !important;
+}
