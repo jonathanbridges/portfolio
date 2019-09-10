@@ -33,6 +33,13 @@ export default class Contact extends React.Component {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div>
+              <br />
+              <br />
+              <br />
+            </div>
+          </div>
         </div>
       </section>
     )
