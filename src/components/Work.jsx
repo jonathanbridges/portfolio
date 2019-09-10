@@ -11,21 +11,17 @@ export default class Work extends React.Component {
               <h2 className="colorlib-heading animate-box">Recent Work</h2>
             </div>
           </div>
-          <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-            <div className="col-md-12">
-              <p className="work-menu"><span><a href="#" className="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-            </div>
-          </div>
           <div className="row">
             <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
               <div className="project" style={{ backgroundImage: 'url(images/img-1.jpg)' }}>
                 <div className="desc">
                   <div className="con">
-                    <h3><a href="work.html">Work 01</a></h3>
-                    <span>Website</span>
+                    <h3><a href="https://twitter-geotrends.herokuapp.com">Twitter GeoTrends</a></h3>
+                    <span>A data visualization of trending items on Twitter</span>
+                    <span>d3, ExpressJS</span>
                     <p className="icon">
                       <span><a href="#"><i className="icon-share3" /></a></span>
-                      <span><a href="#"><i className="icon-eye" /> 100</a></span>
+                      <span><a href="https://twitter-geotrends.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="icon-eye" /> 100</a></span>
                       <span><a href="#"><i className="icon-heart" /> 49</a></span>
                     </p>
                   </div>
@@ -36,8 +32,9 @@ export default class Work extends React.Component {
               <div className="project" style={{ backgroundImage: 'url(images/img-2.jpg)' }}>
                 <div className="desc">
                   <div className="con">
-                    <h3><a href="work.html">Work 02</a></h3>
-                    <span>Animation</span>
+                    <h3><a href="https://click-camp.herokuapp.com">ClickCamp</a></h3>
+                    <span>A single-page web app inspired by HipCamp</span>
+                    <span>Ruby on Rails, ReactJS, Redux, PostgreSQL, GoogleMaps API, Amazon S3</span>
                     <p className="icon">
                       <span><a href="#"><i className="icon-share3" /></a></span>
                       <span><a href="#"><i className="icon-eye" /> 100</a></span>
@@ -51,8 +48,9 @@ export default class Work extends React.Component {
               <div className="project" style={{ backgroundImage: 'url(images/img-3.jpg)' }}>
                 <div className="desc">
                   <div className="con">
-                    <h3><a href="work.html">Work 03</a></h3>
-                    <span>Illustration</span>
+                    <h3><a href="https://spacey-aa.herokuapp.com">Spacey</a></h3>
+                    <span>A single-page website that aggregates space industry content</span>
+                    <span>MongoDB, ExpressJS, ReactJS, Node</span>
                     <p className="icon">
                       <span><a href="#"><i className="icon-share3" /></a></span>
                       <span><a href="#"><i className="icon-eye" /> 100</a></span>
