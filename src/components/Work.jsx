@@ -3,7 +3,7 @@ import React from 'react';
 export default class Work extends React.Component {
   render () {
     return (
-      <section className="colorlib-work" data-section="work">
+      <section className="colorlib-work" data-section="work" name="work">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -34,6 +34,8 @@ export default class Work extends React.Component {
                     <h3><a href="https://click-camp.herokuapp.com" target="blank" rel="noopener noreferrer">ClickCamp</a></h3>
                     <span>A single-page web app inspired by HipCamp</span>
                     <span>Ruby on Rails, ReactJS, Redux, PostgreSQL, GoogleMaps API, Amazon S3</span>
+                    <br />
+                    <span>(In progress)</span>
                     <p className="icon">
                       <span><a href="https://click-camp.herokuapp.com" target="blank" rel="noopener noreferrer"><i className="icon-eye" /> Live</a></span>
                       <span><a href="https://github.com/jonathanbridges/click-camp" target="blank" rel="noopener noreferrer"><i className="icon-github" /> Repo</a></span>

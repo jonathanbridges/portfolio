@@ -15,8 +15,8 @@ export default class Hero extends React.Component {
                     <div className="slider-text-inner js-fullheight">
                       <div className="desc">
                         <h1>Hi! <br />I'm Jonathan</h1>
-                        <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-                        <p><a className="btn btn-primary btn-learn">Download CV <i className="icon-download4" /></a></p>
+                        <h2>Thanks for stopping by <span role="img" aria-label="smiley emoji">😃</span></h2>
+                        <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/12wndBuWVkX4Hc6_BYDKZFoEdm8er5dSFmWjG1LzIlU0/edit" target="_blank" rel="noopener noreferrer" >View CV <i className="icon-download4" /></a></p>
                       </div>
                     </div>
                   </div>
