@@ -1,6 +1,21 @@
 import React from 'react';
+import { Link, animateScroll as scroller } from 'react-scroll';
+
 
 export default class Hero extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.scrollTo = this.scrollTo.bind(this);
+  }
+
+  scrollTo() {
+    scroller.scrollTo('scroll-to-element', {
+      duration: 1000,
+      delay: 100,
+      smooth: 'easeInOutQuart'
+    })
+  }
 
   render () {
     return (
@@ -31,8 +46,8 @@ export default class Hero extends React.Component {
                     <div className="slider-text-inner">
                       <div className="desc">
                         <h1>I am <br />a Software Developer</h1>
-                        <h2>I love building things</h2>
-                        <p><a className="btn btn-primary btn-learn">View Portfolio  <i className="icon-briefcase3" /></a></p>
+                        <h2>I love building things.</h2>
+                        <p><Link activeClass="active" className="btn btn-primary btn-learn" to="anchor" spy={true} smooth={true} duration={500}>View Portfolio  <i className="icon-briefcase3" /></Link></p>
                       </div>
                     </div>
                   </div>

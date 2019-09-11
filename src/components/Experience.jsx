@@ -21,7 +21,7 @@ export default class Experience extends React.Component {
                     </div>
                     <div className="timeline-label">
                       <h2>Full Stack Developer <span>2019-present</span></h2>
-                      <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+                      <p>Freelancing and currently seeking new opportunities.</p>
                     </div>
                   </div>
                 </article>
@@ -32,7 +32,8 @@ export default class Experience extends React.Component {
                     </div>
                     <div className="timeline-label">
                       <h2>Customer Support Technical Lead at <a href="https://www.tintup.com" target="_blank" rel="noopener noreferrer">TINT</a> <span>2015-2018</span></h2>
-                      <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                      <p>I had full autonomy over the client experience at TINT. When I wasn't assisting clients with web implementations of our software, I worked with Engineering closely, attending standups and meetings, reporting and tracking bugs in PivotalTracker, creating and running QA Tests, and creating API documentation.</p>
+                      <p>I managed the conversion to Zendesk and implemented live chat, greatly reducing our response time and contact rate during the process.</p>
                     </div>
                   </div>
                 </article>
@@ -43,7 +44,9 @@ export default class Experience extends React.Component {
                     </div>
                     <div className="timeline-label">
                       <h2>Client Experience / Operations Associate at <a href="https://www.stitchfix.com" target="_blank" rel="noopener noreferrer">Stitch Fix</a> <span>2014-2015</span></h2>
-                      <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                      <p>At Stitch Fix I wholly embraced a customer centric mindset, and made several improvements to CX processes on the operational level. I implemented a priority ticket structure in Zendesk, wrote Marketing approved copy for help desk replies, and trained new hires in Austin headquarters.</p>
+                      <p>Other operational tasks involved disputing chargebacks, processing truant shipments, analyzing billing discrepancies, and reconciling accounts.</p>
+                      <p>Out of a team that scaled from 20 to over 100 agents, I routinely led the CX team by total ticket solves, while retaining a 98% positive rating on tickets with client ratings.</p>
                     </div>
                   </div>
                 </article>
@@ -54,7 +57,7 @@ export default class Experience extends React.Component {
                     </div>
                     <div className="timeline-label">
                       <h2>Purchasing Specialist at <a href="https://www.firstrepublic.com" target="_blank" rel="noopener noreferrer">First Republic Bank</a> <span>2014-2015</span></h2>
-                      <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                      <p>Working in First Republic's Purchasing Department, I ordered tangible assets for our corporate HQ and nationwide branches. I worked closely with our Facilities department, managing several vendors, and coordinating subcontractors. I also administered employee access for UPS CampusShip, Staples Advantage, GroupTrak and other online accounts.</p>
                     </div>
                   </div>
                 </article>
@@ -65,7 +68,7 @@ export default class Experience extends React.Component {
                     </div>
                     <div className="timeline-label">
                       <h2>Editor / Audio Engineer <a href="https://digifx.com" target="_blank" rel="noopener noreferrer">DigiFX</a> <span>2009-2010</span></h2>
-                      <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                      <p>While at DigiFX I worked primarily on eLearning modules that were used as training materials in the nuclear industry. I proofed and revised scripts prior to recording sessions, recorded and edited audio, and performed voice overs.</p>
                     </div>
                   </div>
                 </article>
@@ -76,7 +79,8 @@ export default class Experience extends React.Component {
                     </div>
                     <div className="timeline-label">
                       <h2>Studio Assistant <a href="http://soundtrackgroup.com/" target="_blank" rel="noopener noreferrer">Soundtrack Boston</a> <span>2008-2009</span></h2>
-                      <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                      <p>
+                        Soundtrack Boston is the premier post-production facility in New England. While there I worked as a studio assistant, and provided coverage for the duplication room, machine room, client services, and wherever else I was needed.</p>
                     </div>
                   </div>
                 </article>

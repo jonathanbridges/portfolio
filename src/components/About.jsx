@@ -23,19 +23,19 @@ export default class About extends React.Component {
                 <div className="col-md-3 animate-box" data-animate-effect="fadeInLeft">
                   <div className="services color-1">
                     <span className="icon2"><i className="icon-code" /></span>
-                    <h3>Web</h3>
+                    <h3>Web Development</h3>
                   </div>
                 </div>
                 <div className="col-md-3 animate-box" data-animate-effect="fadeInRight">
                   <div className="services color-2">
                     <span className="icon2"><i className="icon-globe-outline" /></span>
-                    <h3>DSA</h3>
+                    <h3>DS and Algos</h3>
                   </div>
                 </div>
                 <div className="col-md-3 animate-box" data-animate-effect="fadeInTop">
                   <div className="services color-3">
                     <span className="icon2"><i className="icon-data" /></span>
-                    <h3>Backend</h3>
+                    <h3>Dev Ops</h3>
                   </div>
                 </div>
                 <div className="col-md-3 animate-box" data-animate-effect="fadeInBottom">
