@@ -53,7 +53,7 @@ export default class Work extends React.Component {
                     <span>MongoDB, ExpressJS, ReactJS, Node</span>
                     <p className="icon">
                       <span><a href="https://spacey-aa.herokuapp.com" target="blank" rel="noopener noreferrer"><i className="icon-eye" /> Live</a></span>
-                      <span><a href="https://github.com/jonathanbridges/spacey" target="blank" rel="noopener noreferrer"><i className="icon-heart" /> Repo</a></span>
+                      <span><a href="https://github.com/jonathanbridges/spacey" target="blank" rel="noopener noreferrer"><i className="icon-github" /> Repo</a></span>
                     </p>
                   </div>
                 </div>

@@ -13,9 +13,9 @@ export default class About extends React.Component {
                   <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p><strong>Hi I'm Jonathan Bridges</strong> and I'm a Software Developer. My interest in programming began at my last job. I could oftentimes resolve implementation issues for our clients using my knowledge of HTML5 and CSS3, but increasingly found myself unable to provide adequate solutions without the help of an Engineer. It bothered me being someone who could point out problems but couldn't come up with answers.</p>
+                    <p><strong>Hi I'm Jonathan Bridges</strong> and I'm a Software Developer. My interest in programming began at my last job, where I could oftentimes resolve implementation issues for our clients using my knowledge of HTML5 and CSS3. However, I increasingly found myself unable to provide adequate solutions without the help of an Engineer. It bothered me being someone who could point out problems but couldn't come up with answers.</p>
                     <p>Recently I've been expanding my skillset with the aim of providing more value in my next role. Technologies I've been using include React/Redux, JavaScript, Ruby, Rails, PostgreSQL, MongoDB, Express, and Node. You can view my current and past projects below.</p>
-                    <p>Personally, I love music. I‘ve studied audio technology and play several instruments. Growing up in Vermont, I relish being outdoors. I enjoy bicycling, hiking, camping, and snowboarding.</p> 
+                    <p>Personally, I love music. I‘ve studied audio technology and play several instruments. I grew up in Vermont, where I learned to love being outdoors. I enjoy bicycling, hiking, camping, and snowboarding.</p> 
                   </div>
                 </div>
               </div>
