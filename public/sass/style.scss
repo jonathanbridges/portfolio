@@ -1777,7 +1777,10 @@ margin-left: -20px;
 @media screen and (max-width: 736px) {
   #colorlib-hero {
     margin-bottom: 5em;
-  }
+	}
+	#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+		background: white !important;
+	}
   .colorlib-experience, .colorlib-skills, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
     padding-top: 1em;
     padding-bottom: 0;

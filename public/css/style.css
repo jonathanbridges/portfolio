@@ -1452,6 +1452,9 @@ body.offcanvas {
   .skills {
     font-size: 3em;
   }
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+		background: white !important;
+	}
   #colorlib-hero {
     margin-bottom: 5em;
   }
