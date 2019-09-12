@@ -3,8 +3,9 @@ import Toggle from '../src/components/Toggle';
 import Aside from '../src/components/Aside';
 import Hero from '../src/components/Hero';
 import About from '../src/components/About';
+import Skills from '../src/components/Skills';
+import Work from './components/Work';
 import Experience from '../src/components/Experience';
-import Work from '../src/components/Work';
 import Contact from '../src/components/Contact';
 
 
@@ -18,8 +19,9 @@ class App extends React.Component {
           <div id="colorlib-main">
             <Hero />
             <About />
-            <Experience />
+            <Skills />
             <Work />
+            <Experience />
             <Contact />
           </div>
         </div>

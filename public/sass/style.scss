@@ -127,6 +127,7 @@ body {
 }
 a {
 	color: $brand-primary;
+	cursor: pointer;
 	@include transition(.5s);
 	&:hover, &:active, &:focus {
 		color: $brand-primary;
@@ -1753,4 +1754,35 @@ margin-left: -20px;
 
 .social-icons {
 	margin-bottom: 1.6em;
+}
+
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 15px;
+	font-size: 4em;
+	@media screen and (max-width: 736px) {
+		font-size: 3em;
+	}
+	width: fit-content;
+	background: #f2f3f7;
+}
+
+.icon {
+  padding: .5em;
+}
+
+@media screen and (max-width: 736px) {
+  #colorlib-hero {
+    margin-bottom: 5em;
+  }
+  .colorlib-experience, .colorlib-skills, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+  .skills-mobile {
+    padding-bottom: 2em;
+  }
 }
