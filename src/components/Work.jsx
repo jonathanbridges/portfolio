@@ -13,7 +13,7 @@ export default class Work extends React.Component {
           </div>
           <div className="row">
             <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-              <div className="project" style={{ backgroundImage: 'url(images/img-1.jpg)' }}>
+              <div className="project" style={{ backgroundImage: 'url(images/img-1.png)' }}>
                 <div className="desc">
                   <div className="con">
                     <h3><a href="https://twitter-geotrends.herokuapp.com">Twitter GeoTrends</a></h3>
@@ -28,7 +28,7 @@ export default class Work extends React.Component {
               </div>
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-              <div className="project" style={{ backgroundImage: 'url(images/img-2.jpg)' }}>
+              <div className="project" style={{ backgroundImage: 'url(images/img-2.png)' }}>
                 <div className="desc">
                   <div className="con">
                     <h3><a href="https://click-camp.herokuapp.com" target="blank" rel="noopener noreferrer">ClickCamp</a></h3>
@@ -45,7 +45,7 @@ export default class Work extends React.Component {
               </div>
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
-              <div className="project" style={{ backgroundImage: 'url(images/img-3.jpg)' }}>
+              <div className="project" style={{ backgroundImage: 'url(images/img-3.png)' }}>
                 <div className="desc">
                   <div className="con">
                     <h3><a href="https://spacey-aa.herokuapp.com" target="blank" rel="noopener noreferrer">Spacey</a></h3>
