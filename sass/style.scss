@@ -419,6 +419,8 @@ figure {
 				padding: 2.5em;
 				position: relative;
 				.desc{
+					width: max-content;
+    			text-align: center;
 				}
 				@media screen and (max-width: $screen-sm ) {
 					text-align: center;
@@ -1776,7 +1778,7 @@ margin-left: -20px;
 
 @media screen and (max-width: 736px) {
   #colorlib-hero {
-    margin-bottom: 5em;
+    margin-bottom: 0;
 	}
 	#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
 		background: white !important;
@@ -1787,5 +1789,22 @@ margin-left: -20px;
   }
   .skills-mobile {
     padding-bottom: 2em;
+	}
+	.project .desc {
+		opacity: .95;
+		background-color: #2c98f0;
+	}
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (min-width: 737px) {
+  .hero-desc {
+    width: max-content;
+    max-width: 66vw;
   }
 }

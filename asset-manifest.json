@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.2f72813a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2f72813a.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.36963274.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.36963274.js.map",
-    "static/js/2.ee6866b8.chunk.js": "/portfolio/static/js/2.ee6866b8.chunk.js",
-    "static/js/2.ee6866b8.chunk.js.map": "/portfolio/static/js/2.ee6866b8.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.eeddea32c005fc41e77ae2a01d752bb4.js": "/portfolio/precache-manifest.eeddea32c005fc41e77ae2a01d752bb4.js",
-    "service-worker.js": "/portfolio/service-worker.js"
+    "main.js": "/jonathanbridges/portfolio/static/js/main.a1c273f6.chunk.js",
+    "main.js.map": "/jonathanbridges/portfolio/static/js/main.a1c273f6.chunk.js.map",
+    "runtime~main.js": "/jonathanbridges/portfolio/static/js/runtime~main.26257c05.js",
+    "runtime~main.js.map": "/jonathanbridges/portfolio/static/js/runtime~main.26257c05.js.map",
+    "static/js/2.ee6866b8.chunk.js": "/jonathanbridges/portfolio/static/js/2.ee6866b8.chunk.js",
+    "static/js/2.ee6866b8.chunk.js.map": "/jonathanbridges/portfolio/static/js/2.ee6866b8.chunk.js.map",
+    "index.html": "/jonathanbridges/portfolio/index.html",
+    "precache-manifest.59242e2e97d3fac09300a17670a14d39.js": "/jonathanbridges/portfolio/precache-manifest.59242e2e97d3fac09300a17670a14d39.js",
+    "service-worker.js": "/jonathanbridges/portfolio/service-worker.js"
   }
 }

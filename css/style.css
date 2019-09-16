@@ -1005,8 +1005,8 @@ body.offcanvas {
         color: #000; }
     @media screen and (max-width: 768px) {
       .project .desc {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
+        opacity: .95;
+        background: #2c98f0; }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
@@ -1456,7 +1456,7 @@ body.offcanvas {
 		background: white !important;
 	}
   #colorlib-hero {
-    margin-bottom: 5em;
+    margin-bottom: 0;
   }
   .colorlib-experience, .colorlib-skills, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
     padding-top: 1em;
@@ -1464,5 +1464,18 @@ body.offcanvas {
   }
   .skills-mobile {
     padding-bottom: 2em;
+  }
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media screen and (min-width: 737px) {
+  .hero-desc {
+    width: max-content;
+    max-width: 66vw;
   }
 }
