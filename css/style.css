@@ -79,7 +79,6 @@ figure {
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -1478,4 +1477,8 @@ body.offcanvas {
     width: max-content;
     max-width: 66vw;
   }
+}
+
+#navbar {
+  height: fit-content !important;
 }
