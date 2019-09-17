@@ -1,4 +1,5 @@
 import React from 'react';
+import Social from './Social';
 
 export default class Navbar extends React.Component {
   render () {
@@ -16,12 +17,7 @@ export default class Navbar extends React.Component {
             </ul>
           </div>
         </nav>
-        <nav id="colorlib-main-menu">
-          <ul className="social-icons">
-            <li><a href="https://www.linkedin.com/in/bridgesjonathan" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2"></i></a></li>
-            <li><a href="https://github.com/jonathanbridges" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-          </ul>
-        </nav>
+        <Social />
       </div>
     )
   }

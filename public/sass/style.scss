@@ -188,7 +188,6 @@ figure {
 
 	width: 300px;
 	position: fixed;
-	overflow-y: scroll;
 	z-index: 1001;
 	background: $brand-gray;
 	@include transition(.5s);
@@ -1807,4 +1806,8 @@ margin-left: -20px;
     width: max-content;
     max-width: 66vw;
   }
+}
+
+#navbar {
+  height: fit-content !important;
 }
