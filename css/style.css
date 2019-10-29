@@ -1481,3 +1481,7 @@ body.offcanvas {
 #navbar {
   height: fit-content !important;
 }
+
+.colorlib-contact {
+	height: 100vh;
+}
