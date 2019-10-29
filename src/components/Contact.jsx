@@ -41,11 +41,6 @@ export default class Contact extends React.Component {
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </section>
     )
   }

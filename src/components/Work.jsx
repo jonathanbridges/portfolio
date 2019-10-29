@@ -12,6 +12,22 @@ export default class Work extends React.Component {
             </div>
           </div>
           <div className="row">
+            <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div className="project" style={{ backgroundImage: 'url(images/img-2.png)' }}>
+                <div className="desc">
+                  <div className="con">
+                    <h3><a href="https://click-camp.herokuapp.com" target="blank" rel="noopener noreferrer">ClickCamp</a></h3>
+                    <span>A single-page web app inspired by HipCamp</span>
+                    <span>Ruby on Rails, ReactJS, Redux, PostgreSQL, GoogleMaps API, Amazon S3</span>
+                    <br />
+                    <p className="icon">
+                      <span><a href="https://click-camp.herokuapp.com" target="blank" rel="noopener noreferrer"><i className="icon-eye" /> Live</a></span>
+                      <span><a href="https://github.com/jonathanbridges/click-camp" target="blank" rel="noopener noreferrer"><i className="icon-github" /> Repo</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
               <div className="project" style={{ backgroundImage: 'url(images/img-1.png)' }}>
                 <div className="desc">
@@ -22,23 +38,6 @@ export default class Work extends React.Component {
                     <p className="icon">
                       <span><a href="https://twitter-geotrends.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="icon-eye" /> Live</a></span>
                       <span><a href="https://github.com/jonathanbridges/twitter-geotrends" target="_blank" rel="noopener noreferrer"><i className="icon-github" /> Repo</a></span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-              <div className="project" style={{ backgroundImage: 'url(images/img-2.png)' }}>
-                <div className="desc">
-                  <div className="con">
-                    <h3><a href="https://click-camp.herokuapp.com" target="blank" rel="noopener noreferrer">ClickCamp</a></h3>
-                    <span>A single-page web app inspired by HipCamp</span>
-                    <span>Ruby on Rails, ReactJS, Redux, PostgreSQL, GoogleMaps API, Amazon S3</span>
-                    <br />
-                    <span>(In progress)</span>
-                    <p className="icon">
-                      <span><a href="https://click-camp.herokuapp.com" target="blank" rel="noopener noreferrer"><i className="icon-eye" /> Live</a></span>
-                      <span><a href="https://github.com/jonathanbridges/click-camp" target="blank" rel="noopener noreferrer"><i className="icon-github" /> Repo</a></span>
                     </p>
                   </div>
                 </div>
