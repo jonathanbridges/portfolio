@@ -20,8 +20,8 @@ export default class Experience extends React.Component {
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
-                      <h2>Full Stack Developer <span>2019-present</span></h2>
-                      <p>Freelancing and currently seeking new opportunities.</p>
+                      <h2>Software Developer at <a href="https://www.brandly.com" target="_blank" rel="noopener noreferrer">Brandly</a> <span>2019-present</span></h2>
+                      <p>At Brandly I have been refactoring CSS for mobile views across all marketing pages. I am also tackling bug fixes and frontend tests.</p>
                     </div>
                   </div>
                 </article>
