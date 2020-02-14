@@ -58,22 +58,22 @@ export default class Work extends React.Component {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+            <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
               <div className="project" style={{ backgroundImage: 'url(images/img-4.jpg)' }}>
                 <div className="desc">
                   <div className="con">
-                    <h3><a href="work.html">Work 04</a></h3>
-                    <span>Application</span>
+                    <h3><a href="https://winterdesignbuild.com" target="blank" rel="noopener noreferrer">Winter Design Build</a></h3>
+                    <span>A portfolio website built using create-react-app</span>
+                    <span>ReactJS, HTML, CSS</span>
                     <p className="icon">
-                      <span><a href="#"><i className="icon-share3" /></a></span>
-                      <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                      <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                      <span><a href="https://winterdesignbuild.com" target="blank" rel="noopener noreferrer"><i className="icon-eye" /> Live</a></span>
+                      <span><a href="https://github.com/jonathanbridges/winter-design-build/" target="blank" rel="noopener noreferrer"><i className="icon-github" /> Repo</a></span>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+            {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
               <div className="project" style={{ backgroundImage: 'url(images/img-5.jpg)' }}>
                 <div className="desc">
                   <div className="con">
