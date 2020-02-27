@@ -542,7 +542,9 @@ body.offcanvas {
   margin-left: -20px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   background: #2c98f0;
@@ -1485,3 +1487,4 @@ body.offcanvas {
 .colorlib-contact {
 	height: 100vh;
 }
+
